@@ -1,0 +1,41 @@
+📌 Features
+- Register vehicles
+- View and search registered vehicles
+- Manage parking slots
+- Check available and occupied slots
+- Park vehicles and assign slots automatically
+- Record vehicle entry and exit times
+- Calculate parking charges based on duration
+- Generate parking receipts
+- View parking history
+- Search vehicles by registration number
+- Generate daily revenue reports
+- Track currently parked vehicles
+
+🛠️ Tech Stack
+- Python
+- JSON
+- Datetime
+- UUID
+- OS
+
+📁 Folder Structure
+parking-lot-management/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── vehicle_manager.py
+├── slot_manager.py
+├── parking_manager.py
+├── billing_manager.py
+├── report_manager.py
+│
+├── data/
+│   ├── vehicles.json
+│   ├── slots.json
+│   └── parking_records.json
+│
+├── .gitignore
+└── README.md
